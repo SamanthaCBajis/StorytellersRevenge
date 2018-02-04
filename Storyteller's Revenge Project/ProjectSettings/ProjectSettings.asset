@@ -142,7 +142,7 @@ PlayerSettings:
   resolutionScalingMode: 0
   applicationIdentifier:
     Android: com.SamBajis.revenge
-    iOS: com.SamBajis.Video
+    iOS: com.SamBajis.Pirate
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 19
