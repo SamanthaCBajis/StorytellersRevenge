@@ -1,32 +1,61 @@
 # StorytellersRevenge
-This repository contains a Unity 3D mobile application for iOS and Andriod devices called "Storyteller's Revenge". It has been built and tested using the Google Cardboard Platform.
+This repository contains a Unity 3D mobile application for iOS and Andriod devices called **_Storyteler's Revenge_**. It has been built and tested using the Google Cardboard Viewer.**_Storyteler's Revenge_** is a 360 video application where the user can watch two different videos simultaneously. The user has control over the videos as which they would like to watch, to play and pause, and also to restart the video. A particle effect is used to give the videos more life with the audio sources surrouding the video sphere. The videos are edited to have title and end credits done in Adobe Premiere Pro.
+<br /> ![screen shot 2018-02-09 at 3 15 36 pm](https://user-images.githubusercontent.com/35173600/36048120-297415fe-0dac-11e8-8659-3d7ae04d1276.png)
 
-![screen shot 2018-02-09 at 3 15 36 pm](https://user-images.githubusercontent.com/35173600/36048120-297415fe-0dac-11e8-8659-3d7ae04d1276.png)
+## Getting Started
 
-## Application Description
-"Storyteller's Revenge" is a 360 video application where the user can watch two different videos simultaneously. The user has control over the videos as which they would like to watch, to play and pause, and also to restart the video. A particle effect is used to give the videos more life with the audio sources surrouding the video sphere. The videos are edited to have title and end credits done in Adobe Premiere Pro.
-
-# Building and creation
-The application was created using Unity 3D Patch Release 2017.1.0p4, it has also been ran on Unity 3D version 5.6.2p1, and it can be built and ran to iOS through Xcode version 9.2 or version 9.3 Beta. The iOS device must have software version 11 and up. It also can be built and ran on Andriod devices post downloading the Andriod Studio SDK and Java JDK 8. In order to play the scene on desktop you must have Unity 3D Patch Release 2017.1.0p4 or Unity 3D version 5.6.2p1 and build the scene to your mobile device the version of Unity MUST be Unity 3D Patch Release 2017.1.0p4.
-
-# Getting Started
-In order to download and build application you must:
+### Prerequisites
+The software you will need to download in order to build and run the game on a mobile device:
+<br /> • The cross-platform engine [Unity 3D](https://unity3d.com/unity/qa/patch-releases/2017.1.0p4 "Unity 3D download") Patch Release 2017.1.0p4
 <br />
-<br /> • Go to the green "Clone or download" button and "Downland Zip"
+- For iOS builds, the latest version of [Xcode](https://developer.apple.com/download/ "Xcode 9.3 Beta")
+- NOTE! You will need to have an [Apple ID](https://appleid.apple.com/account#!&page=create "Developer Account") in order to download Xcode and build for iOS
+- NOTE! Make sure to have the latest software version; 11 and up!
+- For Android builds, you need [Android Studio](https://developer.android.com/studio/index.html "Android Studio download") and the [Java JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html "JDK download")
+
+### Installing
+To build and run a copy of this application to your mobile device:
 <br />
-<br /> • Once the zip file is on your desktop, double click the zip file, it will open. Navigate to the folder Assets > Storyteller's Revenge.unity 
+<br /> • On the **Storyteller's Revenge** repository, go to the green "Clone or download" button and click "Download Zip"
 <br />
-<br /> Note-the scene may be a bit down the page and you will have to scroll to find it but it will be titled exactly Storyteller's Revenge.unity with the Unity logo
+<br /> • Once the zip file has loaded onto your desktop, double click the zip file to open. Navigate to the folder Assets > Storyteller's Revenge.unity and double click the scene to open it in Unity 3D
+<br />
+<br /> -NOTE! The scene may not be located at the top of the folder. If not, you will have to scroll through the folder to find it. It will be titled exactly Storyteller's Revenge.unity with the Unity logo-
+<br />
+<br /> After opening the scene in Unity 3D choose to build to either an iOS or Android mobile device
+<br />
+1. For iOS builds:
+   - Go to File > Build Settings and switch the platform to iOS (this can take a while) then click the Player Settings button below that and with this open you can change the name of the application and bundle identifier, if you would like to change them, before pressing Build and Run to then be prompted to name the build and save it. (I usually save the build to my desktop so I can delete it later) 
+     - The build will open in Xcode. Make sure to check your Apple ID is correct, the bundle identifier and the name of the application is what you would like it to be (again, you are more than welcome to use the default name) then press the play button in the upper left corner and the application will build and run directly to your iOS device.
+2. For Android builds:
+   - First, go to the top left corner and click Unity > Preferences. Then, select External Tools in the list and add the locations of Android Studio and Java JDK 8 in the correct section.
+     - Afterwards, go to File > Build Settings and switch platform to Android (this can take a while to do) then click the Player Settings button below that and you can change the name of the application and bundle identifier, if you would like to change them, before pressing Build and Run to then be prompted to name the build and save it. The application will be built right to your Android device from Unity. 
+
+### Deployment
+When building the application to your phone a few important things to note:
+<br />
+<br /> • In Player Settings, you are able to not only change the name of the application and bundle identifier to whatever you would like you can also add a photo to be the icon for the application on your phone. It will be one of the first things you can do in Player Settings. Right under renaming the application.
+<br /> • The Google VR SDK used in the game tracks your head movement. Meaning, where ever the phone is facing, the application will open and start your game from that position. If you would like to be facing a certain direction to play the game right after building to your phone I would suggest facing your device in that direction and hold it horizontally so you can start the experience in the most comfortable position for you.
+
 
 ## How to play
-The instructions to play the application "Storyteller's Revenge":
+The instructions to play the application **_Storyteler's Revenge_**:
 <br />
-<br /> • After opening application user will see only a black background. They need to look down in order to find the video control panel. When the user presses "Play" the video will start playing and they are able to pause, restart, or switch the videos after the play button is pressed.
+<br /> • After opening application user will see only a black background. They need to look down in order to find the video control panel. When the user presses "Play" the video will start playing and they are able to pause, restart, or switch the videos after the play button is pressed
 <br />
-![screen shot 2018-02-09 at 3 15 04 pm](https://user-images.githubusercontent.com/35173600/36048181-5770213c-0dac-11e8-9cbd-0f8a3856f03a.png)
+<br /> ![screen shot 2018-02-09 at 3 15 04 pm](https://user-images.githubusercontent.com/35173600/36048181-5770213c-0dac-11e8-9cbd-0f8a3856f03a.png)
 <br /> 
-• To play the second video after pressing the "Switch Video" button you must hit the "Play" button on that control panel for the video to begin. The user will have to do this everytime when switching the video.
+<br /> • To play the second video after pressing the "Switch Video" button the user must hit the "Play" button on that control panel for the second video to begin. The user will have to do this everytime when switching the video
 <br />
-![screen shot 2018-02-09 at 3 19 11 pm](https://user-images.githubusercontent.com/35173600/36048268-9f340f10-0dac-11e8-9338-b806e03f3754.png)
+<br /> ![screen shot 2018-02-09 at 3 19 11 pm](https://user-images.githubusercontent.com/35173600/36048268-9f340f10-0dac-11e8-9338-b806e03f3754.png)
 
+# Authors
+• Samantha Cayla Bajis - _Initial work_ - SamBajis
+
+# Acknowledgments
+To make **_Storyteller's Revenge_** possible:
+<br /> 
+<br /> • Udacity - coding for player movement mechanic
+<br /> 
+<br /> • Google VR SDK- head tracking, sound system and ability for the users interaction with the Google Cardboard Viewer
 
