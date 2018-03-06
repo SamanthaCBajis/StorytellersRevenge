@@ -1,5 +1,7 @@
 # StorytellersRevenge
-This repository contains a Unity 3D mobile application for iOS and Andriod devices called **_Storyteler's Revenge_**. It was built and tested using the Google Cardboard Viewer.**_Storyteler's Revenge_** is a 360 video application where the user can watch two different videos simultaneously. The user has control over which of the videos they want to watch, to play and pause the videos, and also to restart them. A particle effect is used to give the videos more life with Gvr audio sources surrouding the video sphere. The videos are edited to have title and end credits done in Adobe Premiere Pro.
+An example video of this application built and running on device can be found on my [YouTube Channel.](https://www.youtube.com/channel/UCjgsJBXmN7ZedXu7ZuJCKsA/videos?view_as=subscriber "YouTube")
+<br />
+<br /> This repository contains a Unity 3D mobile application for iOS and Andriod devices called **_Storyteler's Revenge_**. It was built and tested using the Google Cardboard Viewer.**_Storyteler's Revenge_** is a 360 video application where the user can watch two different videos simultaneously. The user has control over which of the videos they want to watch, to play and pause the videos, and also to restart them. A particle effect is used to give the videos more life with Gvr audio sources surrouding the video sphere. The videos are edited to have title and end credits done in Adobe Premiere Pro.
 <br /> ![screen shot 2018-02-09 at 3 15 36 pm](https://user-images.githubusercontent.com/35173600/36048120-297415fe-0dac-11e8-8659-3d7ae04d1276.png)
 
 ## Getting Started
