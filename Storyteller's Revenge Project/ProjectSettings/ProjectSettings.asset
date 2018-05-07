@@ -10,7 +10,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: SamBajis
   productName: Storyteller's Revenge
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -141,8 +141,9 @@ PlayerSettings:
   targetPixelDensity: 0
   resolutionScalingMode: 0
   applicationIdentifier:
-    Android: com.SamBajis.revenge
-    iOS: com.SamBajis.Pirate
+    Android: com.SamBajis.VRVideo
+    Standalone: com.SamBajis.VRVideo
+    iOS: com.SamBajis.VRVideo
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 19
